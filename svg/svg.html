@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Drawing svg shapes with D3</title>
+        <style>
+            div.bar {
+                display: inline-block;
+                width: 20px;
+                height: 75px;   /* We'll override this later */
+                background-color: teal;
+                margin-right:2px;
+            }
+            .circle{
+                fill:rgba(0,0,0,0.1);
+                stroke : rgba(0,0,0,0.2);
+            }
+            .pumpkin {
+                fill: yellow;
+                stroke: orange;
+                stroke-width: 5;
+             }
+             .center-align-block{
+                margin:0 auto;
+                width:800px;
+                text-align: center;
+             }
+        </style>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+    </head>
+    <body>
+
+      
+      <div class="center-align-block">
+        <div  id="barChartSimple">
+          <h1>Bar chart </h1>
+          
+        </div>
+      </div>
+      <script>
+      	var w = 500, h=100, pad = 2;
+      	var dta = [5, 10, 15, 20, 25];
+      	var svg = d3.select("#barChartSimple")
+      				.append("svg")
+      				.attr("width", w)
+      				.attr("height", h);
+      	svg.selectAll("rext")
+      		.data(dta)
+      		.enter()
+      		.append("rect")
+      		.attr("width", 20)
+      		.attr("height", 30)
+      		.attr("x", function(d, i){
+      			return i * 21;
+      		})
+      		.attr("y", 0)
+      		.attr("fill", "purple");
+      </script>
+    </body>
+</html> 
