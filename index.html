@@ -20,141 +20,84 @@
                 stroke: orange;
                 stroke-width: 5;
              }
+             .center-align-block{
+                margin:0 auto;
+                width:800px;
+                text-align: center;
+             }
         </style>
         <script src="http://d3js.org/d3.v3.min.js"></script>
     </head>
     <body>
+
+      
+      <div class="center-align-block">
+        <div  id="barChartSimple">
+          <h1>Bar chart - Simple (With Predefined Data) -Default alignment</h1>
+          <span>Rectangle is always created by svg from top-left corner(x,y) = (0 , 0) | x:horizontal & y:vertical</span>
+        </div>
+        <div id="barChartBottomTop">
+          <h1>Bar chart - Simple (With Predefined Data)</h1>
+        </div>
+      </div>
+      
+
+
         <script type="text/javascript">
-            var w = 400, h = 100;
+            var w = 400, h = 100, barPadding = 4;
+            var dataArr = [24, 34, 45, 23, 37, 25, 15, 56, 21];
             //Created SVG
-            var svg = d3.select("body")
+            var svg = d3.select("body").select("#barChartSimple")
                         .append("svg")
                         .attr("width", w)
                         .attr("height", h);
+              svg.selectAll("rect")
+                  .data(dataArr)
+                  .enter()
+                  .append("rect")
+                  .attr("width", function(d){
+                      return w/dataArr.length - barPadding;   //Calculated width - total width / number of elements = each elment width
+                  })
+                  .attr("height", function(d){
+                    return d * 2;
+                  })
+                  .attr("x", function(d, i){  //x-axis expand towards right
+                    return i * (w/dataArr.length);    
+                  })
+                  .attr("y", function(d){
+                    return 0;
+                  })
+                  .attr("fill", function(){
+                    return "rgba(0,168,210, " + Math.random() + ")";
+                  })
+
+              var svg1 = d3.select("#barChartBottomTop")
+                        .append("svg")
+                        .attr("width", w)
+                        .attr("height", h);
+              svg1.selectAll("rect")
+                  .data(dataArr)
+                  .enter()
+                  .append("rect")
+                  .attr("width", function(d){
+                      return w/dataArr.length - barPadding;   //Calculated width - total width / number of elements = each elment width
+                  })
+                  .attr("height", function(d){
+                    return d * 2;
+                  })
+                  .attr("x", function(d, i){  //x-axis expand towards right
+                    return i * (w/dataArr.length);    
+                  })
+                  .attr("y", function(d){
+                    return (h - d*2);
+                  })
+                  .attr("fill", function(d, i){
+                    console.log(i);
+                    var inc = (i + 20);
+                    console.log(inc)
+                    console.log();
+                    return "rgba(0,168, " + (210 + inc) + ",1)";
+                  })
         </script>
     </body>
 </html> 
-<!-- 
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-
-body {
-  font: 10px sans-serif;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.bar {
-  fill: steelblue;
-}
-
-.x.axis path {
-  display: none;
-}
-
-</style>
-<body>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script>
-    var margin = {top: 20, right: 20, bottom: 30, left: 40},
-        width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
-
-    var x = d3.scale.ordinal()
-        .rangeRoundBands([0, width], .1);
-
-    var y = d3.scale.linear()
-        .rangeRound([height, 0]);
-
-    var color = d3.scale.ordinal()
-        .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
-
-    var xAxis = d3.svg.axis()
-        .scale(x)
-        .orient("bottom");
-
-    var yAxis = d3.svg.axis()
-        .scale(y)
-        .orient("left")
-        .tickFormat(d3.format(".2s"));
-
-    var svg = d3.select("body").append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-      .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-    d3.json('jsonData.json', function(error, data) {
-      color.domain(d3.keys(data[0]).filter(function(key) { return key !== "State"; }));
-      console.log(data);
-      data.forEach(function(d) {
-        var y0 = 0;
-        //Variation for single bar
-        d.ages = color.domain().map(function(name) { return {name: name, y0: y0, y1: y0 += +d[name]}; });
-        d.total = d.ages[d.ages.length - 1].y1;
-        console.log(d.total);
-      });
-
-      data.sort(function(a, b) { return b.total - a.total; });
-
-      x.domain(data.map(function(d) { return d.State; }));
-      y.domain([0, d3.max(data, function(d) { return d.total; })]);
-
-      svg.append("g")
-          .attr("class", "x axis")
-          .attr("transform", "translate(0," + height + ")")
-          .call(xAxis);
-
-      svg.append("g")
-          .attr("class", "y axis")
-          .call(yAxis)
-        .append("text")
-          .attr("transform", "rotate(-90)")
-          .attr("y", 6)
-          .attr("dy", ".71em")
-          .style("text-anchor", "end")
-          .text("Population");
-
-      var state = svg.selectAll(".state")
-          .data(data)
-        .enter().append("g")
-          .attr("class", "g")
-          .attr("transform", function(d) { return "translate(" + x(d.State) + ",0)"; });
-
-      state.selectAll("rect")
-          .data(function(d) { return d.ages; })
-        .enter().append("rect")
-          .attr("width", x.rangeBand())
-          .attr("y", function(d) { return y(d.y1); })
-          .attr("height", function(d) { return y(d.y0) - y(d.y1); })
-          .style("fill", function(d) { return color(d.name); });
-
-      var legend = svg.selectAll(".legend")
-          .data(color.domain().slice().reverse())
-        .enter().append("g")
-          .attr("class", "legend")
-          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-
-      legend.append("rect")
-          .attr("x", width - 18)
-          .attr("width", 18)
-          .attr("height", 18)
-          .style("fill", color);
-
-      legend.append("text")
-          .attr("x", width - 24)
-          .attr("y", 9)
-          .attr("dy", ".35em")
-          .style("text-anchor", "end")
-          .text(function(d) { return d; });
-    });
-</script>
-</body>
-
--->
