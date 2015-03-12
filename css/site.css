@@ -7,7 +7,7 @@
 body {
     background-color: #fff;
     color: #333;
-    background: url("../Images/background.png") repeat scroll left top rgba(0, 0, 0, 0);
+    background: url("/img/background.png") repeat scroll left top rgba(0, 0, 0, 0);
     font-size: 13px;
     font-family: Arial, "Segoe UI", Verdana, Helvetica, Sans-Serif;
     margin: 0;
@@ -1886,7 +1886,7 @@ border: 3px solid #C70909;
 .navbar-default .navbar-nav > li > a:active{
     border-radius: 10px 10px 0 0;
     border: 1px solid #eeeeee;
-    background: url('../Images/background.png') left top;
+    background: url('/img/background.png') left top;
     color: #1489be;
     font-weight: regular;
 	margin-top: 1px;
@@ -1897,7 +1897,7 @@ header{
     margin-bottom: 20px;
 }
 #submenu  .active  a{
-    background: url('../Images/background.png') left top;
+    background: url('/img/background.png') left top;
     color: #1489be;
     font-weight: regular;
  }
