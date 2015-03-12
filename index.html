@@ -39,24 +39,29 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                   
-                          <li class="Search ">
-                            <a href="/Account/NavigateUser?Code=Search" data-navigationcode="Search" active-nav class='menu-interval headers'>Search</a>
-                        </li>
-                          <li class="Recruitment active">
-                            <a href="/Account/NavigateUser?Code=Recruitment" data-navigationcode="Recruitment" active-nav class='menu-interval headers'>Recruitment</a>
-                        </li>
-                          <li class="Profile ">
-                            <a href="/Account/NavigateUser?Code=Profile" data-navigationcode="Profile" active-nav class='menu-interval headers'>Profile</a>
-                        </li>
-                          <li class="Reports ">
-                            <a href="/Account/NavigateUser?Code=Reports" data-navigationcode="Reports" active-nav class='menu-interval headers'>Reports</a>
-                        </li>
-                          <li class="Messages ">
-                            <a href="/Account/NavigateUser?Code=Messages" data-navigationcode="Messages" active-nav class='menu-interval headers'>Messages</a>
-                        </li>
-
-              
+                  <li class="Search ">
+                    <a href="/Account/NavigateUser?Code=Search" data-navigationcode="Search" active-nav class='menu-interval headers'>Search</a>
+                </li>
+                  <li class="Recruitment active dropdown">
+                    <a data-navigationcode="Recruitment" data-toggle="dropdown" role="button" aria-expanded="false" class='dropdown-toggle'>Recruitment</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="JobPostings "><a href="/Account/NavigateUser?Code=JobPostings" data-navigationcode="JobPostings" data-headercode="Recruitment" class="subheaders" secondary-nav>Job Postings</a></li>
+                       <li class="PostJob active arrow_box"><a href="/Account/NavigateUser?Code=PostJob" data-navigationcode="PostJob" data-headercode="Recruitment" class="subheaders" secondary-nav>Post a Job</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav hidden" id="Recruitment">
+                       <li class="JobPostings "><a href="/Account/NavigateUser?Code=JobPostings" data-navigationcode="JobPostings" data-headercode="Recruitment" class="subheaders" secondary-nav>Job Postings</a></li>
+                       <li class="PostJob active arrow_box"><a href="/Account/NavigateUser?Code=PostJob" data-navigationcode="PostJob" data-headercode="Recruitment" class="subheaders" secondary-nav>Post a Job</a></li>
+                   </ul>
+                </li>
+                  <li class="Profile ">
+                    <a href="/Account/NavigateUser?Code=Profile" data-navigationcode="Profile" active-nav class='menu-interval headers'>Profile</a>
+                </li>
+                  <li class="Reports ">
+                    <a href="/Account/NavigateUser?Code=Reports" data-navigationcode="Reports" active-nav class='menu-interval headers'>Reports</a>
+                </li>
+                  <li class="Messages ">
+                    <a href="/Account/NavigateUser?Code=Messages" data-navigationcode="Messages" active-nav class='menu-interval headers'>Messages</a>
+                </li>
               </ul>
               <div class="pull-right">
                     <span id="change-size" role="menu" style="right:18px;">
@@ -172,10 +177,8 @@
                    
                    </ul>
                    <ul class="nav navbar-nav " id="Recruitment">
-                               <li class="JobPostings "><a href="/Account/NavigateUser?Code=JobPostings" data-navigationcode="JobPostings" data-headercode="Recruitment" class="subheaders" secondary-nav>Job Postings</a></li>
-                               <li class="PostJob active arrow_box"><a href="/Account/NavigateUser?Code=PostJob" data-navigationcode="PostJob" data-headercode="Recruitment" class="subheaders" secondary-nav>Post a Job</a></li>
-
-                   
+                       <li class="JobPostings "><a href="/Account/NavigateUser?Code=JobPostings" data-navigationcode="JobPostings" data-headercode="Recruitment" class="subheaders" secondary-nav>Job Postings</a></li>
+                       <li class="PostJob active arrow_box"><a href="/Account/NavigateUser?Code=PostJob" data-navigationcode="PostJob" data-headercode="Recruitment" class="subheaders" secondary-nav>Post a Job</a></li>
                    </ul>
                    <ul class="nav navbar-nav collapse" id="Profile">
                                <li class="MyProfile "><a href="/Account/NavigateUser?Code=MyProfile" data-navigationcode="MyProfile" data-headercode="Profile" class="subheaders" secondary-nav>My Profile</a></li>
