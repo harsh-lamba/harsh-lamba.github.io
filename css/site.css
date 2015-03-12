@@ -2464,3 +2464,15 @@ color:red !important;
     float:left;
 }
 /* Tick in checkbox*/
+/*Dropdown*/
+ul.dropdown-menu{
+	background: none;
+	border:0;
+	box-shadow: none;
+	width:500px;
+	padding:11px 0;
+	left:-86px;
+}
+ul.dropdown-menu li{
+	float:left;
+}
