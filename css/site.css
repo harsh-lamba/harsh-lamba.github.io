@@ -1893,8 +1893,6 @@ border: 3px solid #C70909;
  }
 header{
     height: 135px;
-    border-bottom: 2px solid #dcd6dc;
-    margin-bottom: 20px;
 }
 #submenu  .active  a{
     background: url('/img/background.png') left top;
