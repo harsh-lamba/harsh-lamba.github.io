@@ -2507,6 +2507,10 @@ ul.dropdown-menu.expanded{
 ul.dropdown-menu.expanded > li{
 	float: none;
 }
+#nav ul.dropdown-menu.expanded > li > a{
+	padding-left:3.14286em;
+}
+
 /*Expanded- Open state*/
 #nav .open ul.dropdown-menu{
 	display: block;
