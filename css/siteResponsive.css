@@ -1261,6 +1261,9 @@
             border:0;
             border-bottom:1px solid #D7D7D7;
         }
+        #nav ul.nav > li a:hover, #nav ul.nav > li a:focus, #nav ul.nav > li.active a{
+            background:#eee;
+        } 
         #nav ul.nav > li:last-child a{
             border-bottom:0;
         }
