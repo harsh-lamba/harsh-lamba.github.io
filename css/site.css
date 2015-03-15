@@ -1888,9 +1888,10 @@ border: 3px solid #C70909;
     font-weight: regular;
 	margin-top: 1px;
  }
+/*
 header{
     height: 135px;
-}
+}*/
 #submenu  .active  a{
     background: url('/img/background.png') left top;
     color: #1489be;
