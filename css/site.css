@@ -346,6 +346,9 @@ ul {
 .flag{
 	
 }
+.flag-font-wrap .header-right-dropdown{
+	background:#fff;
+}
 /*nav.navbar-default .container,
 nav.navbar-default .navbar-collapse{
 	padding: 0;
