@@ -2548,6 +2548,9 @@ ul.dropdown-menu li{
 #nav ul.nav > li a .caret{
 	display: none;
 }
+#nav ul.nav > li a [class^="iconmoon-"], #nav ul.nav > li a [class*=" iconmoon-"]{
+	display: none;
+}
 /*Expanded dropdown*/
 ul.dropdown-menu.expanded{
 	padding:0; left:0; width:auto;	

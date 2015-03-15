@@ -1274,6 +1274,7 @@
             font-size:1.3em;
             vertical-align: middle;
             padding-right:5px;
+            display: inline-block;
         }
     }
 
