@@ -1191,6 +1191,7 @@
             display: initial;
             overflow: :hidden;
             visibility: hidden;
+            background: #fff;
         }
         .js-nav #nav{
             visibility: visible;
@@ -1251,6 +1252,18 @@
         #nav ul.nav{
             margin:0;
             padding:0;
+        }
+        #nav ul.nav > li {
+            margin-top:0;
+            border-top:0;
+        }
+        #nav ul.nav > li a{
+            border-radius:0;
+            border:0;
+
+        }
+        #nav ul.nav > li a .caret{
+            display: inline-block;
         }
     }
 
