@@ -2491,11 +2491,10 @@ ul.dropdown-menu li{
 }
 .block {
   position: relative;
-  padding: 1.5em 1.25em;
   max-width: none;
 }
 .header-menu-wrap{
-	width:78em;
+	width:79em;
 	margin: 0 auto;
 	position: relative;
 	padding:5px 15px;
