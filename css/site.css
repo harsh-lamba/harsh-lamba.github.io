@@ -338,11 +338,14 @@ ul {
 	background-color: #cae3f0;
 	border-color: #cae3f0;
 }
-.flag{
+.flag-font-wrap{
 	position: absolute;
 	top: -1px;
 	right: 9px;
 	z-index:999;
+}
+.flag{
+	
 }
 /*nav.navbar-default .container,
 nav.navbar-default .navbar-collapse{
