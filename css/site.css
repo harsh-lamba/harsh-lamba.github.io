@@ -2542,6 +2542,9 @@ ul.dropdown-menu li{
 	font-size:15px;
 	font-weight:500;
 }
+#nav ul.nav > li a .caret{
+	display: none;
+}
 /*Expanded dropdown*/
 ul.dropdown-menu.expanded{
 	padding:0; left:0; width:auto;	
