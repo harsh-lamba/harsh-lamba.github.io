@@ -342,6 +342,7 @@ ul {
 	position: absolute;
 	top: -1px;
 	right: 9px;
+	z-index:999;
 }
 /*nav.navbar-default .container,
 nav.navbar-default .navbar-collapse{
