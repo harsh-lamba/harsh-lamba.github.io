@@ -333,16 +333,7 @@ body {
   opacity: 1;
 }
 
-#outer-wrap {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
 
-#inner-wrap {
-  position: relative;
-  width: 100%;
-}
 
 #nav {
   z-index: 200;
