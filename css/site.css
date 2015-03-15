@@ -2499,7 +2499,7 @@ ul.dropdown-menu li{
   max-width: none;
 }
 .header-menu-wrap{
-	max-width:78em;
+	width:78em;
 	margin: 0 auto;
 	position: relative;
 	padding:5px 15px;
