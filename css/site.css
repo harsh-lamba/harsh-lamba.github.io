@@ -2502,7 +2502,7 @@ ul.dropdown-menu li{
 }
 /*Expanded dropdown*/
 ul.dropdown-menu.expanded{
-	padding:5px 0; left:0; width:auto;
+	padding:0; left:0; width:auto;	
 }
 ul.dropdown-menu.expanded > li{
 	float: none;
