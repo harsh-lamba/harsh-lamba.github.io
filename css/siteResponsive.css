@@ -1270,6 +1270,11 @@
         #nav ul.nav > li a .caret{
             display: inline-block;
         }
+        #nav ul.nav > li a [class^="iconmoon-"], #nav ul.nav > li a [class*=" iconmoon-"] {
+            font-size:1.3em;
+            vertical-align: middle;
+            padding-right:5px;
+        }
     }
 
     /* Small Devices, Tablets : 768px */
