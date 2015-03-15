@@ -338,7 +338,7 @@ ul {
 	background-color: #cae3f0;
 	border-color: #cae3f0;
 }
-ul.flag{
+.flag{
 	position: absolute;
 	top: -1px;
 	right: 9px;
@@ -2501,7 +2501,6 @@ ul.dropdown-menu li{
 }
 #top {
   z-index: 100;
-  position: relative;
   color: #fff;
   background: none;
   padding-top: 13px;
