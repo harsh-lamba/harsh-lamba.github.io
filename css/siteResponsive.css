@@ -1088,7 +1088,7 @@
     }
 
     /* Extra Small Devices, Phones - Resolution : 481px */ 
-    @media only screen and (min-width : 30.063em) {
+    @media only screen and (min-width : 30.063em) and (max-width: 40em){
         footer .container.mContainer .mob-diverge{
             padding-bottom:15px;
         }
@@ -1131,7 +1131,7 @@
     }
     
     /*Resolution : 681px */
-    @media only screen and (min-width : 42.500em) {
+    @media only screen and (min-width : 42.500em) and (max-width:48em){
         footer .container.mContainer .mob-diverge .col-sm-3{
             width:25%;
             float:left;
@@ -1243,6 +1243,25 @@
         
         .navbar-default {
             
+        }
+        /* Nav bar */
+        .navbar-nav>li>.dropdown-menu{
+
+        }
+        .navbar-nav>li>.dropdown-menu{
+            
+        }
+        .dropdown-menu > li > a{
+
+        }
+        .dropdown-menu > li > a:hover{
+            background:none;
+        }
+        .dropdown-menu > li.active > a{
+            
+        }
+        .dropdown-menu > li.active > a:hover, .dropdown-menu > li.active > a:focus{
+            background:none;
         }
         .dfloatLogo {
             position:absolute;
