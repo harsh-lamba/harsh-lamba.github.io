@@ -1247,6 +1247,11 @@
         .header-menu-wrap{
             position:initial;
         }
+
+        #nav ul.nav{
+            margin:0;
+            padding:0;
+        }
     }
 
     /* Small Devices, Tablets : 768px */
