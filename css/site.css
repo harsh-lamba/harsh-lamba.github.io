@@ -2505,6 +2505,9 @@ ul.dropdown-menu.expanded{
 	padding:5px 0; left:0; width:auto;
 }
 /*Expanded- Open state*/
+#nav .open ul.dropdown-menu{
+	display: block;
+}
 .open .dropdown-menu.expanded{
 	position: static;
 	float:none;
