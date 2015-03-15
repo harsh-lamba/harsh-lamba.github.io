@@ -2504,6 +2504,7 @@ ul.dropdown-menu li{
   position: relative;
   color: #fff;
   background: none;
+  padding-top: 13px;
 }
 /*Navigation*/
 #nav {
