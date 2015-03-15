@@ -2493,6 +2493,15 @@ ul.dropdown-menu li{
   min-height: 100vh;
   flex-direction:column;
 }
+
+/*Navigation*/
+#nav {
+  z-index: 200;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  color: #fff;
+}
 #nav ul {
   *zoom: 1;
   display: block;
