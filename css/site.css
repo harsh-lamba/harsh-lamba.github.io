@@ -2530,6 +2530,18 @@ ul.dropdown-menu li{
 #nav ul.dropdown-menu{
 	display: none;
 }
+#nav ul.nav{
+	padding-top:25px;
+}
+#nav ul.nav > li{
+	
+}
+#nav ul.nav > li a{
+	color:#858583;
+	border:1px solid #cae3f0;
+	font-size:15px;
+	font-weight:500;
+}
 /*Expanded dropdown*/
 ul.dropdown-menu.expanded{
 	padding:0; left:0; width:auto;	
