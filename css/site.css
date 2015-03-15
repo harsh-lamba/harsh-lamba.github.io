@@ -2493,3 +2493,6 @@ ul.dropdown-menu li{
   min-height: 100vh;
   flex-direction:column;
 }
+ul.dropdown-menu.expanded{
+	padding:5px 0; left:0; width:auto;
+}
