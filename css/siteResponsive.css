@@ -1246,8 +1246,35 @@
         }
         .header-menu-wrap{
             position:initial;
+            width:auto;
+            padding-bottom:0;
         }
-
+        #divLogo{
+            margin-top: 32px;
+        }
+        #divLogo a{
+            display:block;
+            padding-top:10px;
+            padding-bottom:10px;
+        }
+        #divLogo a img{
+            margin-top: 25px;
+            width:44%;
+        }
+        .flag-font-wrap{
+            width:97%;
+            top:0;
+            left:0;
+            background:#1489be;
+        }
+        ul.flag li a#icons-header-right, ul.flag li a#icons-header-right:hover, ul.flag li a#icons-header-right:focus{
+            background:none;
+            margin:0;
+            padding-bottom:20px;
+        }
+        #top .nav-btn{
+            z-index:999;
+        }
         #nav ul.nav{
             margin:0;
             padding:0;
