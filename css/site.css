@@ -2493,6 +2493,11 @@ ul.dropdown-menu li{
   min-height: 100vh;
   flex-direction:column;
 }
+.block {
+  position: relative;
+  padding: 1.5em 1.25em;
+  max-width: none;
+}
 .header-menu-wrap{
 	max-width:78em;
 	margin: 0 auto;

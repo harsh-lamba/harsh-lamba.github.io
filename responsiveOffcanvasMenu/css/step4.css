@@ -278,12 +278,7 @@ body {
   border-bottom-color: #77b36b;
 }
 
-.block {
-  position: relative;
-  margin: 0 auto;
-  padding: 1.5em 1.25em;
-  max-width: 60em;
-}
+
 
 .close-btn {
   display: block;
