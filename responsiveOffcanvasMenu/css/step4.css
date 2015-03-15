@@ -377,12 +377,7 @@ body {
   color: #fff;
 }
 
-#top {
-  z-index: 100;
-  position: relative;
-  color: #fff;
-  background: #333333;
-}
+
 #top .block-title {
   margin: 0;
   font-size: 1.875em;

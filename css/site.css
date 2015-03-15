@@ -2504,6 +2504,12 @@ ul.dropdown-menu li{
 	position: relative;
 	padding:5px 15px;
 }
+#top {
+  z-index: 100;
+  position: relative;
+  color: #fff;
+  background: none;
+}
 /*Navigation*/
 #nav {
   z-index: 200;
