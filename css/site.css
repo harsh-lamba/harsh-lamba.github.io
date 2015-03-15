@@ -2500,6 +2500,15 @@ ul.dropdown-menu li{
 #nav ul.dropdown-menu{
 	display: none;
 }
+/*Expanded dropdown*/
 ul.dropdown-menu.expanded{
 	padding:5px 0; left:0; width:auto;
+}
+/*Expanded- Open state*/
+.open .dropdown-menu.expanded{
+	position: static;
+	float:none;
+	width:auto;
+	margin-top: 0;
+	background-color:transparent;
 }
