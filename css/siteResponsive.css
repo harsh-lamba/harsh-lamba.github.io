@@ -1181,7 +1181,7 @@
     @media only screen and (max-width : 48em) {
         #nav {
             position: absolute;
-            top: 0;
+            top: -1px;
             padding-top: 5.25em;
         }
         #nav:not(:target) {
@@ -1221,7 +1221,7 @@
             opacity: 1;
         }
         .csstransforms3d.csstransitions.js-ready #nav {
-            left: 0;
+            left: -3px;
             -webkit-transform: translate3d(-100%, 0, 0);
             -moz-transform: translate3d(-100%, 0, 0);
             -ms-transform: translate3d(-100%, 0, 0);
@@ -1232,6 +1232,9 @@
             -ms-backface-visibility: hidden;
             -o-backface-visibility: hidden;
             backface-visibility: hidden;
+        }
+        .header-menu-wrap{
+            position:initial;
         }
     }
 
