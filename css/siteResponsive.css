@@ -1252,13 +1252,13 @@
             
         }
         .dropdown-menu > li > a{
-
+            background:none;
         }
         .dropdown-menu > li > a:hover{
             background:none;
         }
         .dropdown-menu > li.active > a{
-            
+            background:none;
         }
         .dropdown-menu > li.active > a:hover, .dropdown-menu > li.active > a:focus{
             background:none;
