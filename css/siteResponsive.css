@@ -1269,7 +1269,7 @@
         }
         #nav .multi-login .dropdown-menu.orgMenu{
             left:0;
-            width:100%;
+            width:100% !important;
         }
 
         #divLogo{
