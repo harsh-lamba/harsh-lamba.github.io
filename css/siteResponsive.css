@@ -1200,7 +1200,7 @@
         }
         #nav .close-btn {
             position: absolute;
-            top: -3.75em;
+            top: 1em;
             left: 1.875em;
         }
         #nav .block {
