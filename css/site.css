@@ -422,7 +422,6 @@ position: relative;
 bottom: 10px;
 right: 3px;
 }
-
 .navbar-right li a#icons-header-right span.fa-question {
     display: block;
     text-align: center;
@@ -550,6 +549,30 @@ right: 3px;
 	top: -16px;
 	content: "▲";
 	cursor: default;
+}
+
+/*Multi login*/
+.multi-login{
+	padding-top:40px;
+}
+.multi-login a#hover-header-right{
+	border-radius: 4px 4px 4px 4px;
+    font-size: 12px;
+    position: relative;
+    margin-top: 16px;
+    padding: 4px 9px 4px 9px;
+    font-weight: 700;
+    margin-right: 5px;
+    cursor: pointer;
+    vertical-align: text-bottom;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    vertical-align: text-bottom;
+    color: #777777;
+}
+.multi-login ul.dropdown-menu{
+	background:#fff;
 }
 
 #heading-form{
