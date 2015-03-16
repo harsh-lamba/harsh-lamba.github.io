@@ -343,8 +343,13 @@ ul {
 	right: 9px;
 	z-index:999;
 }
+.flag-font-wrap #change-size{
+	top:-5px;
+	right:5px;
+}	
 .flag{
-	
+	display: inline-block;
+	float:none !important;
 }
 .flag-font-wrap .header-right-dropdown{
 	background:#fff;
