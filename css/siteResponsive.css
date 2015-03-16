@@ -1284,6 +1284,8 @@
         }
         #top .nav-btn{
             z-index:999;
+            top:5px;
+            left:10px;
         }
         #nav ul.nav{
             margin:0;
