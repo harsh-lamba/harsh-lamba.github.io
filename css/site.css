@@ -562,7 +562,7 @@ right: 3px;
 
 /*Multi login*/
 #nav .multi-login{
-	padding-top:40px;
+	padding-top:33px;
 }
 #nav .multi-login a#hover-header-right{
 	border-radius: 4px 4px 4px 4px;
@@ -594,6 +594,12 @@ right: 3px;
 	border-right:0;
 }
 #nav .multi-login ul.dropdown-menu li a{
+}
+
+/*Config wrapper*/
+#nav ul.config-wrapper > li a{
+	height:25px;
+	vertical-align: middle;
 }
 
 #heading-form{
