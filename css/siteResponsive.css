@@ -1286,6 +1286,7 @@
             z-index:999;
             top:5px;
             left:10px;
+            display: inline;
         }
         #nav ul.nav{
             margin:0;
