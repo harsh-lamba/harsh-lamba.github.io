@@ -1261,6 +1261,13 @@
         }
         #nav ul.config-wrapper > li > a{
             height:auto;
+            margin:0;
+            padding:0.85714em 2.14286em;
+            background: none;
+            display: block;
+            width:auto;
+            text-align: left;
+            box-shadow: none;
         }
 
         #nav .multi-login{
