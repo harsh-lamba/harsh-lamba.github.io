@@ -345,11 +345,11 @@ body {
   width: 1px;
 }
 
-
+/*
 #nav ul:before, #nav ul:after {
   content: "";
   display: table;
-}
+}*/
 #nav ul:after {
   clear: both;
 }

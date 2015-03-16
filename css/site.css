@@ -552,10 +552,10 @@ right: 3px;
 }
 
 /*Multi login*/
-.multi-login{
+#nav .multi-login{
 	padding-top:40px;
 }
-.multi-login a#hover-header-right{
+#nav .multi-login a#hover-header-right{
 	border-radius: 4px 4px 4px 4px;
     font-size: 12px;
     position: relative;
@@ -571,8 +571,20 @@ right: 3px;
     vertical-align: text-bottom;
     color: #777777;
 }
-.multi-login ul.dropdown-menu{
+#nav .multi-login a#hover-header-right:hover, .multi-login a#hover-header-right:focus{
+	color:#ffffff;
+   	cursor: pointer;
+   	background-color: #1489be;
+}
+#nav .multi-login ul.dropdown-menu{
 	background:#fff;
+}
+#nav .multi-login ul.dropdown-menu li{
+	display: block;
+	float:none;
+}
+#nav .multi-login ul.dropdown-menu li a{
+	border-radius:0;
 }
 
 #heading-form{
