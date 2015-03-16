@@ -1246,6 +1246,17 @@
             width:auto;
             padding-bottom:0;
         }
+        /*Multi Login and navigation wrapper*/
+        .multi-nav-wrapper{
+            float:none; 
+            width:auto;
+        }
+        .config-wrapper{
+            display: none;
+            margin-left:0 !important; 
+            float:left !important;
+        }
+
         #divLogo{
             margin-top: 32px;
         }
