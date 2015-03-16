@@ -550,6 +550,15 @@ right: 3px;
 	content: "▲";
 	cursor: default;
 }
+/*Multi Login and navigation wrapper*/
+.multi-nav-wrapper{
+	float:left; 
+	width:71%;
+}
+.config-wrapper{
+	margin-left:0; 
+	float:left;
+}
 
 /*Multi login*/
 #nav .multi-login{
