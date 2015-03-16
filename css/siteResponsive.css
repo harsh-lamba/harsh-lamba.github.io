@@ -1179,7 +1179,6 @@
         #nav {
             position: absolute;
             top: -1px;
-            padding-top: 5.25em;
             display: flex;
             flex-direction:column;
             min-height: 100vh;
@@ -1255,6 +1254,22 @@
             display: none !important;
             margin-left:0 !important; 
             float:left !important;
+        }
+        #nav .multi-login{
+            background:#cae3f0;
+            padding-top:7.2em;
+        }
+
+        #nav .multi-login a#hover-header-right .caret{
+            float:right;
+            margin-top:7px;
+        }
+        #nav .multi-login a#hover-header-right:hover, #nav .multi-login a#hover-header-right:focus{
+            background:none;
+        }
+        #nav .multi-login .dropdown-menu.orgMenu{
+            left:0;
+            width:100%;
         }
 
         #divLogo{
