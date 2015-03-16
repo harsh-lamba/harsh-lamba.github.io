@@ -55,7 +55,25 @@
 					    <nav id="nav" role="navigation">
 					        <div class="block">
 					            <h2 class="block-title">Chapters</h2>
-					            <ul class="nav navbar-nav navbar-right">
+					            <div class="multi-login dropdown" id="username">
+					            	<a href="#" class="dropdown-toggle"  id="hover-header-right" data-toggle="dropdown">Harsh Lamba
+				                    	<b class="caret"></b>
+				                	</a>
+				                	<ul class="dropdown-menu header-right-dropdown orgMenu">
+					                    <li role="presentation"> 
+					                        <a role="menuitem" href="/Account/ChangeCurrentUserProfile?profileName=Harsh Lamba" class="">
+					                          <img src="/img/VV_Icon_VolunteerOpportunities.png" width="28" height="28">
+					                            Harsh Lamba
+					                        </a>
+					                    </li>
+					                    <li role="presentation" class="divider"></li>
+					                    <li role="presentation" id="separate-highlight">
+					                        <span><a role="menuitem"  href="/Profile/MyProfile">Harsh Lamba</a></span>
+					                        <span><a role="menuitem"  href="/Account/LogOff">Logout</a></span>
+					                    </li>
+				                  	</ul>
+					            </div>
+					            <ul class="nav navbar-nav navbar-right hidden">
 					                <li class='pull-right question-chat' ng-init="changeImage = fal3e">
 					                    <a href="#" class="dropdown-toggle" ng-mouseover="changeImage = true" ng-mouseout="changeImage = false" data-toggle="dropdown">
 					                        <img ng-if="!changeImage" src="/img/question-chat2.png">
