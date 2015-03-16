@@ -56,95 +56,10 @@
 					    <nav id="nav" role="navigation">
 					        <div class="block">
 					            <h2 class="block-title">Chapters</h2>
-					            <!-- Multi-login dropdown start here -->
-					            <div class="multi-login dropdown navbar-right" id="username">
-					            	<a href="#" class="dropdown-toggle"  id="hover-header-right" data-toggle="dropdown">Harsh Lamba
-				                    	<b class="caret"></b>
-				                	</a>
-				                	<ul class="dropdown-menu header-right-dropdown orgMenu">
-					                    <li role="presentation"> 
-					                        <a role="menuitem" href="/Account/ChangeCurrentUserProfile?profileName=Harsh Lamba" class="">
-					                          <img src="/img/VV_Icon_VolunteerOpportunities.png" width="28" height="28">
-					                            Harsh Lamba
-					                        </a>
-					                    </li>
-					                    <li role="presentation" class="divider"></li>
-					                    <li role="presentation" id="separate-highlight">
-					                        <span><a role="menuitem"  href="/Profile/MyProfile">Harsh Lamba</a></span>
-					                        <span><a role="menuitem"  href="/Account/LogOff">Logout</a></span>
-					                    </li>
-				                  	</ul>
-					            </div>
-					            <!-- Multi-login dropdown end here -->
-
-					            <ul class="nav navbar-nav navbar-right hidden">
-					                <li class='pull-right question-chat' ng-init="changeImage = fal3e">
-					                    <a href="#" class="dropdown-toggle" ng-mouseover="changeImage = true" ng-mouseout="changeImage = false" data-toggle="dropdown">
-					                        <img ng-if="!changeImage" src="/img/question-chat2.png">
-					                    </a>
-					                    <ul class="dropdown-menu header-right-dropdown hidden">
-					                        <li role="presentation">
-					                            <a role="menuitem" target="_tab" href="/SiteInformation/PlatformFeedback">&nbsp;<i class='fa fa-comments'></i> &nbsp;Give platform feedback</a>
-					                        </li>
-					                        <li role="presentation" class="divider"></li>
-					                        <li role="presentation">
-					                            <a role="menuitem" target="_tab" href="/SiteInformation/CustomerService">&nbsp;<i class='fa fa-headphones'></i> &nbsp;Customer service</a>
-					                        </li>
-					                        <li role="presentation" class="divider"></li>
-					                        <li role="presentation">
-					                            <a role="menuitem" target="_tab" href="/SiteInformation/CommunityNForms">&nbsp;<i class='fa fa-file-text'></i> &nbsp;Community and forms</a>
-					                        </li>
-					                        <li role="presentation" class="divider"></li>
-					                        <li role="presentation">
-					                            <a role="menuitem" target="_tab" href="/SiteInformation/AboutUs">&nbsp;<img src="/img/VV_Icon_Profile.png" width="16" height="16"> &nbsp;New to vrijwilligersvacture.nl</a>
-					                        </li>
-					                        <li role="presentation" class="divider"></li>
-					                        <li role="presentation">
-					                            <a role="menuitem" target="_tab" href="/SiteInformation/ContactUs">&nbsp;&nbsp;<i class='fa fa-phone'></i> &nbsp;Call us +31 85 888 6757</a>
-					                        </li>
-					                    </ul>
-					                </li>
-					                <li class='pull-right'>
-					                    <a href="#" class="dropdown-toggle" id="icons-header-right" data-toggle="dropdown"><i class='fa fa-cog'></i></a>
-					                    <ul class="dropdown-menu header-right-dropdown hidden">
-					                        <li role="presentation" class="">
-					                          <a role="menuitem" data-navigationcode="MyAccount" href="/Account/NavigateUser?Code=MyAccount">
-					                            <i class='fa fa-wrench'></i>
-					                            My Account
-					                          </a>
-					                        </li>
-					                        <li role="presentation" class="divider"></li>
-					                        <li role="presentation" class="">
-					                          <a role="menuitem" data-navigationcode="ChangePassword" href="/Account/NavigateUser?Code=ChangePassword">
-					                            <i class='fa fa-cog'></i>
-					                            Change Password
-					                          </a>
-					                        </li>
-					                        <li role="presentation" class="divider"></li>
-					                        <li role="presentation" class="">
-					                          <a role="menuitem" data-navigationcode="NotificationSettings" href="/Account/NavigateUser?Code=NotificationSettings">
-					                            <i class='fa fa-bell'></i>
-					                            Notification Settings
-					                          </a>
-					                        </li>
-					                        <li role="presentation" class="divider"></li>
-					                        <li role="presentation" class="">
-					                          <a role="menuitem" data-navigationcode="PublishToSocialMedia" href="/Account/NavigateUser?Code=PublishToSocialMedia"><i class='fa fa-share-alt'></i>
-					                            Publish to Social Media
-					                          </a>
-					                        </li>
-					                        <li role="presentation" class="divider"></li>
-					                        <li role="presentation" class="">
-					                          <a role="menuitem" data-navigationcode="CreateOrganization" href="/Account/NavigateUser?Code=CreateOrganization">
-					                            <img src='/img/VV_Icon_OrganizationLogo.png'  width='17px' height='17px'>
-					                            Create an Organization
-					                          </a>
-					                        </li>
-					                    </ul>
-					                </li>
-					                <li class='pull-right' ><a href="#" id="icons-header-right"><span class="fa fa-exclamation"></a></li>
-					                <li class="dropdown pull-right" style="margin-top:5px;" id="username">
-					                	<a href="#" class="dropdown-toggle"  id="hover-header-right" data-toggle="dropdown">Harsh Lamba
+					            <div style="float:left">
+						            <!-- Multi-login dropdown start here -->
+						            <div class="multi-login dropdown navbar-right" id="username">
+						            	<a href="#" class="dropdown-toggle"  id="hover-header-right" data-toggle="dropdown">Harsh Lamba
 					                    	<b class="caret"></b>
 					                	</a>
 					                	<ul class="dropdown-menu header-right-dropdown orgMenu">
@@ -160,62 +75,148 @@
 						                        <span><a role="menuitem"  href="/Account/LogOff">Logout</a></span>
 						                    </li>
 					                  	</ul>
-					                </li>
-					              </ul>
-					            <!-- Navigation start -->
-					            <ul class="nav navbar-nav">
-					                <li class="active dropdown">
-					                    <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="true">
-					                    	<span class="iconmoon-search"></span>
-		                					Search
-		                					<span class="caret"></span>
-		              					</a>
-					                    <ul class="dropdown-menu expanded" role="menu" aria-labelledby="drop1">
-							                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="iconmoon-searchJob"></span>Search Job</a></li>
-							                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="iconmoon-searchVolunteer"></span>Search Volunteer</a></li>
-							                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="iconmoon-searchOrganization"></span>Search Organization</a></li>
-							            </ul>
-					                </li>
-					                <li>
-					                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="true">
-					                    	<span class="iconmoon-recruitment"></span>
-					                    	Recruitment
-					                    	<span class="caret"></span>
-					                    </a>
-					                    <ul class="dropdown-menu expanded" role="menu" aria-labelledby="drop1">
-							                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
-							                	<span class="iconmoon-jobPosting"></span>
-							                	Job Posting</a></li>
-							                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
-							                	<span class="iconmoon-jobPosting"></span>
-							                	Post a Job</a></li>
-							            </ul>
-					                </li>
-					                <li>
-					                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="true">
-					                    	Profile
-					                    	<span class="caret"></span>
-					                    </a>
-					                    <ul class="dropdown-menu expanded" role="menu" aria-labelledby="drop1">
-							                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Profile</a></li>
-							                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Job Applications</a></li>
-							            </ul>
-					                </li>
-					                <li>
-					                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="true">
-					                    	Reports
-					                    	<span class="caret"></span>
-					                    </a>
-					                    <ul class="dropdown-menu expanded" role="menu" aria-labelledby="drop1">
-							                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Timesheet</a></li>
-							            </ul>
-					                </li>
-					                <li>
-					                    <a href="#">Messages</a>
-					                </li>
-					            </ul>
-					            <!-- Navigation end -->
+						            </div>
+						            <!-- Multi-login dropdown end here -->
 
+						            <ul class="nav navbar-nav navbar-right hidden">
+						                <li class='pull-right question-chat' ng-init="changeImage = fal3e">
+						                    <a href="#" class="dropdown-toggle" ng-mouseover="changeImage = true" ng-mouseout="changeImage = false" data-toggle="dropdown">
+						                        <img ng-if="!changeImage" src="/img/question-chat2.png">
+						                    </a>
+						                    <ul class="dropdown-menu header-right-dropdown hidden">
+						                        <li role="presentation">
+						                            <a role="menuitem" target="_tab" href="/SiteInformation/PlatformFeedback">&nbsp;<i class='fa fa-comments'></i> &nbsp;Give platform feedback</a>
+						                        </li>
+						                        <li role="presentation" class="divider"></li>
+						                        <li role="presentation">
+						                            <a role="menuitem" target="_tab" href="/SiteInformation/CustomerService">&nbsp;<i class='fa fa-headphones'></i> &nbsp;Customer service</a>
+						                        </li>
+						                        <li role="presentation" class="divider"></li>
+						                        <li role="presentation">
+						                            <a role="menuitem" target="_tab" href="/SiteInformation/CommunityNForms">&nbsp;<i class='fa fa-file-text'></i> &nbsp;Community and forms</a>
+						                        </li>
+						                        <li role="presentation" class="divider"></li>
+						                        <li role="presentation">
+						                            <a role="menuitem" target="_tab" href="/SiteInformation/AboutUs">&nbsp;<img src="/img/VV_Icon_Profile.png" width="16" height="16"> &nbsp;New to vrijwilligersvacture.nl</a>
+						                        </li>
+						                        <li role="presentation" class="divider"></li>
+						                        <li role="presentation">
+						                            <a role="menuitem" target="_tab" href="/SiteInformation/ContactUs">&nbsp;&nbsp;<i class='fa fa-phone'></i> &nbsp;Call us +31 85 888 6757</a>
+						                        </li>
+						                    </ul>
+						                </li>
+						                <li class='pull-right'>
+						                    <a href="#" class="dropdown-toggle" id="icons-header-right" data-toggle="dropdown"><i class='fa fa-cog'></i></a>
+						                    <ul class="dropdown-menu header-right-dropdown hidden">
+						                        <li role="presentation" class="">
+						                          <a role="menuitem" data-navigationcode="MyAccount" href="/Account/NavigateUser?Code=MyAccount">
+						                            <i class='fa fa-wrench'></i>
+						                            My Account
+						                          </a>
+						                        </li>
+						                        <li role="presentation" class="divider"></li>
+						                        <li role="presentation" class="">
+						                          <a role="menuitem" data-navigationcode="ChangePassword" href="/Account/NavigateUser?Code=ChangePassword">
+						                            <i class='fa fa-cog'></i>
+						                            Change Password
+						                          </a>
+						                        </li>
+						                        <li role="presentation" class="divider"></li>
+						                        <li role="presentation" class="">
+						                          <a role="menuitem" data-navigationcode="NotificationSettings" href="/Account/NavigateUser?Code=NotificationSettings">
+						                            <i class='fa fa-bell'></i>
+						                            Notification Settings
+						                          </a>
+						                        </li>
+						                        <li role="presentation" class="divider"></li>
+						                        <li role="presentation" class="">
+						                          <a role="menuitem" data-navigationcode="PublishToSocialMedia" href="/Account/NavigateUser?Code=PublishToSocialMedia"><i class='fa fa-share-alt'></i>
+						                            Publish to Social Media
+						                          </a>
+						                        </li>
+						                        <li role="presentation" class="divider"></li>
+						                        <li role="presentation" class="">
+						                          <a role="menuitem" data-navigationcode="CreateOrganization" href="/Account/NavigateUser?Code=CreateOrganization">
+						                            <img src='/img/VV_Icon_OrganizationLogo.png'  width='17px' height='17px'>
+						                            Create an Organization
+						                          </a>
+						                        </li>
+						                    </ul>
+						                </li>
+						                <li class='pull-right' ><a href="#" id="icons-header-right"><span class="fa fa-exclamation"></a></li>
+						                <li class="dropdown pull-right" style="margin-top:5px;" id="username">
+						                	<a href="#" class="dropdown-toggle"  id="hover-header-right" data-toggle="dropdown">Harsh Lamba
+						                    	<b class="caret"></b>
+						                	</a>
+						                	<ul class="dropdown-menu header-right-dropdown orgMenu">
+							                    <li role="presentation"> 
+							                        <a role="menuitem" href="/Account/ChangeCurrentUserProfile?profileName=Harsh Lamba" class="">
+							                          <img src="/img/VV_Icon_VolunteerOpportunities.png" width="28" height="28">
+							                            Harsh Lamba
+							                        </a>
+							                    </li>
+							                    <li role="presentation" class="divider"></li>
+							                    <li role="presentation" id="separate-highlight">
+							                        <span><a role="menuitem"  href="/Profile/MyProfile">Harsh Lamba</a></span>
+							                        <span><a role="menuitem"  href="/Account/LogOff">Logout</a></span>
+							                    </li>
+						                  	</ul>
+						                </li>
+						              </ul>
+						            <!-- Navigation start -->
+						            <ul class="nav navbar-nav">
+						                <li class="active dropdown">
+						                    <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="true">
+						                    	<span class="iconmoon-search"></span>
+			                					Search
+			                					<span class="caret"></span>
+			              					</a>
+						                    <ul class="dropdown-menu expanded" role="menu" aria-labelledby="drop1">
+								                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="iconmoon-searchJob"></span>Search Job</a></li>
+								                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="iconmoon-searchVolunteer"></span>Search Volunteer</a></li>
+								                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><span class="iconmoon-searchOrganization"></span>Search Organization</a></li>
+								            </ul>
+						                </li>
+						                <li>
+						                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="true">
+						                    	<span class="iconmoon-recruitment"></span>
+						                    	Recruitment
+						                    	<span class="caret"></span>
+						                    </a>
+						                    <ul class="dropdown-menu expanded" role="menu" aria-labelledby="drop1">
+								                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+								                	<span class="iconmoon-jobPosting"></span>
+								                	Job Posting</a></li>
+								                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+								                	<span class="iconmoon-jobPosting"></span>
+								                	Post a Job</a></li>
+								            </ul>
+						                </li>
+						                <li>
+						                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="true">
+						                    	Profile
+						                    	<span class="caret"></span>
+						                    </a>
+						                    <ul class="dropdown-menu expanded" role="menu" aria-labelledby="drop1">
+								                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Profile</a></li>
+								                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Job Applications</a></li>
+								            </ul>
+						                </li>
+						                <li>
+						                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="true">
+						                    	Reports
+						                    	<span class="caret"></span>
+						                    </a>
+						                    <ul class="dropdown-menu expanded" role="menu" aria-labelledby="drop1">
+								                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Timesheet</a></li>
+								            </ul>
+						                </li>
+						                <li>
+						                    <a href="#">Messages</a>
+						                </li>
+						            </ul>
+						            <!-- Navigation end -->
+						        </div>
 					            <ul class="nav navbar-nav navbar-right">
 					            	<li class='pull-right question-chat' ng-init="changeImage = fal3e">
 					                    <a href="#" class="dropdown-toggle" ng-mouseover="changeImage = true" ng-mouseout="changeImage = false" data-toggle="dropdown">
