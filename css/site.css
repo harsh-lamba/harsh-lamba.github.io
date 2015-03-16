@@ -612,6 +612,8 @@ right: 3px;
 }
 #nav ul.config-wrapper > li .dropdown-menu > li > a {
 	padding:8px 40px 8px 10px;
+	border:0;
+	text-align: left;
 }
 
 #heading-form{
