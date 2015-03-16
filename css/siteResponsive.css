@@ -1250,11 +1250,15 @@
             float:none; 
             width:auto;
         }
-        .config-wrapper{
-            display: none !important;
-            margin-left:0 !important; 
-            float:left !important;
+        #nav .config-wrapper{
+            float:none !important;
         }
+
+        #nav .config-wrapper > li{
+            display: block;
+            float:none;
+        }
+
         #nav .multi-login{
             background:#cae3f0;
             padding-top:7.2em;
