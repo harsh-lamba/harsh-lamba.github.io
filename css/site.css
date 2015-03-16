@@ -615,7 +615,9 @@ right: 3px;
 	border:0;
 	text-align: left;
 }
-
+#nav ul.config-wrapper > li > a .text{
+	display: none;
+}
 #heading-form{
 	font-size: 26px;
 	font-family: Arial;
