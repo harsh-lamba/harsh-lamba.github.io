@@ -556,8 +556,8 @@ right: 3px;
 	width:71%;
 }
 .config-wrapper{
-	margin-left:0; 
-	float:left;
+	margin-left:0 !important; 
+	float:left !important;
 }
 
 /*Multi login*/
