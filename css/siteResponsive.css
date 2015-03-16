@@ -1269,6 +1269,15 @@
             text-align: left;
             box-shadow: none;
         }
+        #nav ul.config-wrapper > li > a i.fa{
+            display: inline-block;
+            top:0;
+        }
+        #nav ul.config-wrapper > li > a .text{
+            bottom:auto;
+            right:auto;
+            display: inline-block;
+        }
 
         #nav .multi-login{
             background:#cae3f0;
