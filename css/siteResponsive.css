@@ -1280,7 +1280,6 @@
         ul.flag li a#icons-header-right, ul.flag li a#icons-header-right:hover, ul.flag li a#icons-header-right:focus{
             background:none;
             margin:0;
-            padding-bottom:20px;
         }
         #top .nav-btn{
             z-index:999;
