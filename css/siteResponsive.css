@@ -1252,11 +1252,15 @@
         }
         #nav .config-wrapper{
             float:none !important;
+            border-top:2px solid #d2d2d2;
         }
 
         #nav .config-wrapper > li{
             display: block;
-            float:none;
+            float:none !important;
+        }
+        #nav .config-wrapper > li > a{
+            height:auto;
         }
 
         #nav .multi-login{
