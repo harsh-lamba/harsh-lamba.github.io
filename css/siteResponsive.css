@@ -1262,6 +1262,20 @@
             top:0;
             left:0;
             background:#1489be;
+            text-align: right;
+            padding-top:10px;
+            padding-bottom:10px;
+        }
+        .flag-font-wrap #change-size{
+            top:0;
+            right:0;
+            padding-right:5px;
+        }
+        .flag-font-wrap #change-size a{
+            color:#fff;
+        }
+        .flag{
+            vertical-align: middle;
         }
         ul.flag li a#icons-header-right, ul.flag li a#icons-header-right:hover, ul.flag li a#icons-header-right:focus{
             background:none;
