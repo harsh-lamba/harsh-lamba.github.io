@@ -1259,7 +1259,7 @@
             display: block;
             float:none !important;
         }
-        #nav .config-wrapper > li > a{
+        #nav ul.config-wrapper > li > a{
             height:auto;
         }
 
