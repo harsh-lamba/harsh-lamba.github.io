@@ -597,9 +597,21 @@ right: 3px;
 }
 
 /*Config wrapper*/
-#nav ul.config-wrapper > li a{
+#nav ul.config-wrapper > li > a{
 	height:25px;
 	vertical-align: middle;
+}
+
+#nav ul.config-wrapper > li .dropdown-menu{
+	width:auto;
+}
+#nav ul.config-wrapper > li .dropdown-menu > li{
+	display: block;
+	float:none;
+	border-right:0;
+}
+#nav ul.config-wrapper > li .dropdown-menu > li > a {
+	padding:8px 40px 8px 10px;
 }
 
 #heading-form{
