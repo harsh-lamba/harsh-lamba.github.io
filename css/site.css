@@ -367,9 +367,6 @@ nav.navbar-default .navbar-collapse{
 .navbar-default .navbar-nav.flag li{
 	margin-top: 0px;	
 }
-.navbar-default #change-size{
-	right: 46px;
-}
 .navbar-default #change-size span a{
 	top: 8px;
 }
