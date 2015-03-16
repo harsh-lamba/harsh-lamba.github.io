@@ -559,8 +559,7 @@ right: 3px;
 	border-radius: 4px 4px 4px 4px;
     font-size: 12px;
     position: relative;
-    margin-top: 16px;
-    padding: 4px 9px 4px 9px;
+    padding: 7px 9px;
     font-weight: 700;
     margin-right: 5px;
     cursor: pointer;
@@ -570,6 +569,7 @@ right: 3px;
     appearance: none;
     vertical-align: text-bottom;
     color: #777777;
+    display: block;
 }
 #nav .multi-login a#hover-header-right:hover, .multi-login a#hover-header-right:focus{
 	color:#ffffff;
@@ -582,6 +582,7 @@ right: 3px;
 #nav .multi-login ul.dropdown-menu li{
 	display: block;
 	float:none;
+	border-right:0;
 }
 #nav .multi-login ul.dropdown-menu li a{
 	border-radius:0;
