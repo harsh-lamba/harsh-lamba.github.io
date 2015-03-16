@@ -1278,7 +1278,15 @@
             right:auto;
             display: inline-block;
         }
-
+        #nav ul.config-wrapper > li > ul.dropdown-menu{
+            margin-top:0;
+        }
+        #nav ul.config-wrapper > li > ul.dropdown-menu:before{
+            display: none;
+        }
+        #nav ul.config-wrapper > li > ul.dropdown-menu > li > a{
+            font-size:1em;
+        }
         #nav .multi-login{
             background:#cae3f0;
             padding-top:7.2em;
