@@ -1252,7 +1252,7 @@
             width:auto;
         }
         .config-wrapper{
-            display: none;
+            display: none !important;
             margin-left:0 !important; 
             float:left !important;
         }
