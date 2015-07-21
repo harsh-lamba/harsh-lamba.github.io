@@ -1,0 +1,3 @@
+[submodule "hisab-kitab"]
+	path = hisab-kitab
+	url = https://github.com/harsh-lamba/hisab-kitab.git
