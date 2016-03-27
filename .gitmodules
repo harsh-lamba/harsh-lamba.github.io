@@ -4,3 +4,6 @@
 [submodule "dynamicStyleSheet"]
 	path = dynamicStyleSheet
 	url = https://github.com/harsh-lamba/dynamicStyleSheet.git
+[submodule "element"]
+	path = element
+	url = https://github.com/harsh-lamba/element.git
