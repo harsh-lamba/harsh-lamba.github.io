@@ -13,3 +13,6 @@
 [submodule "prototype/alleVestigingen"]
 	path = prototype/alleVestigingen
 	url = https://github.com/harsh-lamba/alleVestigingen.git
+[submodule "crud"]
+	path = crud
+	url = https://github.com/harsh-lamba/startup.git
