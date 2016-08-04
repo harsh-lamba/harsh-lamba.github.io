@@ -10,3 +10,6 @@
 [submodule "element"]
 	path = element
 	url = https://github.com/harsh-lamba/element.git
+[submodule "crud"]
+	path = crud
+ 	url = https://github.com/harsh-lamba/startup.git
