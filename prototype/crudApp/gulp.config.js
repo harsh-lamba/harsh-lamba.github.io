@@ -22,6 +22,7 @@ module.exports = function() {
 						app + "**/*.config.js",
 						app + "**/*.constant.js",
 						app + "**/*.controller.js",
+						app + "**/*.directive.js",
 						app + "**/*.service.js"
 					  ],
 		"temp"		: app + "tmp"
