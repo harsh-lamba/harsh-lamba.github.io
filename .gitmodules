@@ -10,7 +10,3 @@
 [submodule "element"]
 	path = element
 	url = https://github.com/harsh-lamba/element.git
-[submodule "prototype/alleVestigingen"]
-	path = prototype/alleVestigingen
-	url = https://github.com/harsh-lamba/alleVestigingen.git
-
