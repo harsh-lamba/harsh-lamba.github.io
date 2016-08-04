@@ -21,9 +21,9 @@
 	angular.module("app.module")
 		.controller("appController", appController);
 
-	appController.$inject = ['appService'];
+	appController.$inject = ['appService', '$timeout'];
 
-	function appController(appService){
+	function appController(appService, $timeout){
 		var vm = this;
 
 		vm.posts = [];

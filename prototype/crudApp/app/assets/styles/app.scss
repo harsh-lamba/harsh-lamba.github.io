@@ -7,12 +7,12 @@
 //Fonts
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
 
+//helpers
+@import "helpers/variables.scss";
+
 //Vendor specific
 @import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
 @import "../../../bower_components/components-font-awesome/scss/font-awesome.scss";
-
-//helpers
-@import "helpers/variables.scss";
 
 //base
 @import "base/reset.scss";
