@@ -1,0 +1,23 @@
+{
+  "name": "startup",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "harsh-lamba <lharsh18@yahoo.in>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/harsh-lamba/startup",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-grid": "^4.0.0",
+    "components-font-awesome": "^4.6.3",
+    "bootstrap-sass": "^3.3.7",
+    "material-design-lite": "^1.1.3"
+  }
+}
