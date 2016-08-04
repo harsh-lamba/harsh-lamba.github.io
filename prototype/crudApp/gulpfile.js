@@ -61,6 +61,11 @@ gulp.task("js:app", function(){
 			.pipe(gulp.dest(config.temp));
 });
 
+gulp.task("js:watch", function(){
+	$.logger.log("All angular files");
+	gulp.watch(config.allApp, ["js:app"]);
+});
+
 //javascript files linting using eslint plugin
 gulp.task("js:lint", function(){
 	$.logger.log("Angular files are being linted");

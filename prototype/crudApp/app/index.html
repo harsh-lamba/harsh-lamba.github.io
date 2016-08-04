@@ -29,7 +29,7 @@
     <![endif]-->
   </head>
 
-  <body data-ng-app="app.module">
+  <body data-ng-app="app.module" data-ng-controller="appController as app">
     <div class="container">
       <div class="header clearfix">
         <nav>
@@ -46,10 +46,16 @@
         <div class="col-lg-12">
           <table class="table table-striped">
             <thead>
-              <tr><th></th></tr>
+              <tr>
+                <th>title</th>
+                <th>Detail</th>
+              </tr>
             </thead>
             <tbody>
-              <tr><td></td></tr>
+              <tr data-ng-repeat="post in app.posts">
+                <td data-ng-bind="post.title"></td>
+                <td data-ng-bind="post.body"></td>
+              </tr>
             </tbody>
           </table>
         </div>
