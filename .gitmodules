@@ -10,3 +10,6 @@
 [submodule "element"]
 	path = element
 	url = https://github.com/harsh-lamba/element.git
+[submodule "prototype/reactD3"]
+	path = prototype/reactD3
+	url = https://github.com/harsh-lamba/reactD3.git
