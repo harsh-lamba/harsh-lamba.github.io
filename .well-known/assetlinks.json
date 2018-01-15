@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.aycoproject",
+    "sha256_cert_fingerprints":
+    ["B7:F5:3E:B3:89:91:D2:6E:AF:56:1A:9A:C5:AA:E9:D8:0E:52:EF:24:BA:D8:60:BB:12:9F:05:2B:78:49:9C:51"]
+  }
+}]
