@@ -14,6 +14,13 @@
     <![endif]-->
 
     <title>Harsh-lamba.GitHub.io by harsh-lamba</title>
+    <script type="text/javascript">
+      document.addEventListner('message', function(event){
+        if(event.data==='loaded'){
+          alert('FromWebView: Loading completed');
+        }
+      });
+    </script>
   </head>
 
   <body>
