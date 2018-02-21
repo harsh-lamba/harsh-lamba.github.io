@@ -26,7 +26,7 @@
   </head>
 
   <body>
-    <header>
+   <!-- <header>
       <div class="inner">
         <h1>Harsh-lamba.GitHub.io
 		</h1>
@@ -57,7 +57,7 @@
     <option value="audi">Audi</option>
     <optgroup></optgroup>
   </select>
-</div>
+</div>-->
 <div class="form-group">
   <select required="" ng-options="q.questionText for q in sq.securityQuestions | filter:sq.selectedFilter(sq.memberSecurityQuestions[0].q) track by q.securityQuestionID" ng-model="sq.memberSecurityQuestions[0].q" class="form-control ng-pristine ng-empty ng-invalid ng-invalid-required ng-touched" ng-change="sq.update()" data-testid="registrationsecurityquestion0">
     <option value="" disabled="" hidden="" selected="selected">Security question one *</option><option label="In what city did you meet your spouse/significant other?" value="5">In what city did you meet your spouse/significant other?</option>
