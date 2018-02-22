@@ -17,9 +17,9 @@
     <script type="text/javascript">
       
       document.addEventListener('message', function(event){
-        //alert('FromWebView: Loading completed-test');
+        alert(JSON.stringify(event));
         if(event.data==='loaded'){
-          //alert('FromWebView: Loading completed 222');
+          alert('FromWebView: Loading completed');
         }
       });
     </script>
