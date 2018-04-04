@@ -5,10 +5,22 @@ Production and QA url
 
 [Ayco - login](https://www.ayco.com/login)
 
+[Ayco - FWI](https://www.ayco.com/fwi)
+
+[Ayco - Checklist](https://www.ayco.com/portal/checklist)
+
+[Ayco - Appointments](https://www.ayco.com/portal/appointments/home)
+
 ## QA
 [Ayco](https://wwwqa.ayco.com)
 
 [Ayco - login](https://wwwqa.ayco.com/login)
+
+[Ayco - FWI](https://wwwqa.ayco.com/fwi)
+
+[Ayco - Checklist](https://wwwqa.ayco.com/portal/checklist)
+
+[Ayco - Appointments](https://wwwqa.ayco.com/portal/appointments/home)
 
 ## APP
 [Ayco - Aycoapp](aycoapp:app)
