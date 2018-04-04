@@ -1,3 +1,16 @@
+### Deep Linking Test.
+Production and QA url
+##Production
+[Ayco](https://www.ayco.com)
+[Ayco - login](https://www.ayco.com)
+
+##QA
+[Ayco](https://wwwqa.ayco.com)
+[Ayco - login](https://wwwqa.ayco.com)
+
+##APP
+[Ayco - Aycoapp](aycoapp:app)
+
 ### Welcome to GitHub Pages.
 This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub for Mac or GitHub for Windows, simply sync your repository and you’ll see the new branch.
 
