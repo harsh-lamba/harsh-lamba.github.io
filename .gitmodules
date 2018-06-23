@@ -13,3 +13,6 @@
 [submodule "prototype/reactD3"]
 	path = prototype/reactD3
 	url = https://github.com/harsh-lamba/reactD3.git
+[submodule "react-chat"]
+	path = react-chat
+	url = https://github.com/harsh-lamba/react-chat.git
