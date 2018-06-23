@@ -27,6 +27,14 @@
             messagingSenderId: "74590438252"
         };
         firebase.initializeApp(config);
+        var userTable = firebase.database().ref('user');
+        userTable.on('value', function(snapshot){
+            console.log(snapshot);
+            console.log(snapshot.val());
+        });
+        firebase.database().ref('/user/1').once('value').then(function(snapshot) {
+            console.log(snapshot.val());
+        });
     </script>
     <script type="text/javascript" src="static/js/main.a0b7d8d3.js"></script>
 </body>
